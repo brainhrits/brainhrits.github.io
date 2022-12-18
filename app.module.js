@@ -12,17 +12,17 @@ var app = angular.module('app',[
 
 /*owl carousel slide show */
 
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel(
-    {
-      items: 1,
-      autoplay: true,
-      lazyLoad:true,
-      autoplayTimeout: 20000,
-      smartSpeed: 600,
-      loop: true,
-    });
-});
+// $(document).ready(function(){
+//   $('.owl-carousel').owlCarousel(
+//     {
+//       items: 1,
+//       autoplay: true,
+//       lazyLoad:true,
+//       autoplayTimeout: 20000,
+//       smartSpeed: 600,
+//       loop: true,
+//     });
+// });
 
 /* scroll to top button functions */
 
