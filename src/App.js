@@ -46,7 +46,7 @@ import PainPoints from "./components/pages/about/PainPoints";
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter basename="/brain">
+      <BrowserRouter basename="">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about/who-we-are" element={<WhoWeAre />} />
