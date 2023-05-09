@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7116604e.css",
-    "main.js": "/static/js/main.cd7e8021.js",
+    "main.js": "/static/js/main.ceb4088f.js",
     "static/media/2.png": "/static/media/2.83453004f4b37504f6c7.png",
     "static/media/1.jpg": "/static/media/1.2ce92eca799399d826fb.jpg",
     "static/media/office-building.jpeg": "/static/media/office-building.6e0916ec1d240489c679.jpeg",
@@ -14,10 +14,10 @@
     "static/media/logo.png": "/static/media/logo.601a7ebd19c096d3879f.png",
     "index.html": "/index.html",
     "main.7116604e.css.map": "/static/css/main.7116604e.css.map",
-    "main.cd7e8021.js.map": "/static/js/main.cd7e8021.js.map"
+    "main.ceb4088f.js.map": "/static/js/main.ceb4088f.js.map"
   },
   "entrypoints": [
     "static/css/main.7116604e.css",
-    "static/js/main.cd7e8021.js"
+    "static/js/main.ceb4088f.js"
   ]
 }
