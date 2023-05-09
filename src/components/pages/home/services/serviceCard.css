@@ -1,0 +1,34 @@
+.serviceCard {
+  background-color: #1a2322;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3rem;
+  border: 1px solid #1a2322;
+}
+
+.serviceCardIcon {
+  font-size: 3rem;
+  color: #f26822;
+  margin-bottom: 1rem;
+}
+
+.serviceCardTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.serviceCardDescription {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.serviceCardLink a:link,
+.serviceCardLink a:active,
+.serviceCardLink a:hover,
+.serviceCardLink a:visited {
+  color: #f26822;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
