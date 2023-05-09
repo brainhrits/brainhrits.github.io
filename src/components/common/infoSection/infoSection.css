@@ -1,0 +1,40 @@
+.section-name {
+  color: #f26822;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: #1a2322;
+  font-size: 3.8rem;
+  letter-spacing: -0.1rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.section-title-seperator {
+  height: 0.5rem;
+  background-color: #f26822;
+  width: 15rem;
+  margin-bottom: 2rem;
+}
+
+.section-description {
+  color: #616670;
+  font-size: 1.6rem;
+  padding-right: 5rem;
+}
+
+.section-description p {
+  margin-bottom: 2rem;
+}
+
+.intro-section {
+  display: flex;
+  padding-top: 30rem;
+}
+
+.intro-section-details {
+  flex: 1;
+}
