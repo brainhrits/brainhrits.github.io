@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7116604e.css",
+    "main.js": "/static/js/main.cd7e8021.js",
+    "static/media/2.png": "/static/media/2.83453004f4b37504f6c7.png",
+    "static/media/1.jpg": "/static/media/1.2ce92eca799399d826fb.jpg",
+    "static/media/office-building.jpeg": "/static/media/office-building.6e0916ec1d240489c679.jpeg",
+    "static/media/commonBanner.jpeg": "/static/media/commonBanner.da1e23ab5629253dda2f.jpeg",
+    "static/media/3.jpg": "/static/media/3.aa878ee26c772d647dc0.jpg",
+    "static/media/5.jpg": "/static/media/5.cd746f8c9dbe2b5bb5a5.jpg",
+    "static/media/intro-img.jpeg": "/static/media/intro-img.b8dd02ba02dfa66ffc34.jpeg",
+    "static/media/happy-team.jpeg": "/static/media/happy-team.72ab767887c1e2f034a3.jpeg",
+    "static/media/happy-team-2.jpeg": "/static/media/happy-team-2.ebd3b9064c96472cc891.jpeg",
+    "static/media/logo.png": "/static/media/logo.601a7ebd19c096d3879f.png",
+    "index.html": "/index.html",
+    "main.7116604e.css.map": "/static/css/main.7116604e.css.map",
+    "main.cd7e8021.js.map": "/static/js/main.cd7e8021.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7116604e.css",
+    "static/js/main.cd7e8021.js"
+  ]
+}
