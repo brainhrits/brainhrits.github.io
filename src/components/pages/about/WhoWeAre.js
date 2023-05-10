@@ -12,7 +12,7 @@ class WhoWeAre extends React.Component {
 
         <CommonBanner>Who We Are?</CommonBanner>
         <InfoSection
-          name="More than a decard experience in offer solutions to businesses of all sizes"
+          name="More than a decade experience in offer solutions to businesses of all sizes"
           title="Delivering value-driven solutions with innovation"
         >
           <p>

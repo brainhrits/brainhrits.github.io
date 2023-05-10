@@ -33,19 +33,19 @@ export default class Footer extends React.Component {
             <div class="footerSectionHeader">Quick Links</div>
             <ul class="footerLinks">
               <li class="footerLink">
-                <Link to="/brain/about">About US</Link>
+                <Link to="/about/who-we-are">Who We Are</Link>
               </li>
               <li class="footerLink">
-                <a href="#">Services</a>
+                <Link to="/about/vision">Our Vision</Link>
               </li>
               <li class="footerLink">
-                <a href="#">Careers</a>
+                <Link to="/about/culture">Our Culture</Link>
               </li>
               <li class="footerLink">
-                <a href="#">Industries</a>
+                <Link to="/about/minorities">Women & Minorities</Link>
               </li>
               <li class="footerLink">
-                <a href="#">Contact</a>
+                <Link to="/about/research">Research</Link>
               </li>
             </ul>
           </div>
@@ -53,16 +53,16 @@ export default class Footer extends React.Component {
             <div class="footerSectionHeader">Useful Links</div>
             <ul class="footerLinks">
               <li class="footerLink">
-                <a href="#">Service A</a>
+                <Link to="/services/consulting">Consulting</Link>
               </li>
               <li class="footerLink">
-                <a href="#">Service B</a>
+                <Link to="/services/it">Information Technology</Link>
               </li>
               <li class="footerLink">
-                <a href="#">Service C</a>
+                <Link to="/services/trainings">Trainings</Link>
               </li>
               <li class="footerLink">
-                <a href="#">Service D</a>
+                <Link to="/services/digital-marketing">Digital Marketing</Link>
               </li>
             </ul>
           </div>

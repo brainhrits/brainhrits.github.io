@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./common/css/styles.css";
+import "./common/css/animations.css";
 
 import Home from "./components/pages/home/Home";
 import WhoWeAre from "./components/pages/about/WhoWeAre";
 import Consulting from "./components/pages/services/Consulting";
-import "./common/css/styles.css";
-import "./common/css/animations.css";
 import StaffAugmentation from "./components/pages/services/StaffAugmentation";
 import HRStrategicSolution from "./components/pages/services/HrStategicSolution";
 import OnsiteOffshore from "./components/pages/services/OnsiteOffShore";

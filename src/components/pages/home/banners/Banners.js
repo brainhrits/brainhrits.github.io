@@ -2,10 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./banners.css";
 
-import banner1 from "./images/1.jpg";
-import banner2 from "./images/2.png";
-import banner3 from "./images/3.jpg";
-import banner4 from "./images/5.jpg";
+import whoWeAreImage from "./images/1.jpg";
+import staffAugmentationImage from "./images/2.png";
+import itSolutionsImage from "./images/3.jpg";
+import ccccImage from "./images/5.jpg";
+import trainingsImage from "./images/1.jpg";
+import digitalMarketingImage from "./images/14.jpg";
+import researchImage from "./images/1.jpg";
+
 class Banners extends React.Component {
   render() {
     return (
@@ -16,34 +20,7 @@ class Banners extends React.Component {
         data-bs-interval="2000"
       >
         <div className="banners-container-overlay" />
-        <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#home-page-banners"
-            data-bs-slide-to="0"
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#home-page-banners"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#home-page-banners"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#home-page-banners"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-        </div>
+        <div className="carousel-indicators">{this.getButtons()}</div>
         <div className="carousel-inner">{this.getBannersComponents()}</div>
       </div>
     );
@@ -51,56 +28,102 @@ class Banners extends React.Component {
   getBanners() {
     const banners = [
       {
-        headLine: "An Innovative",
-        title: "Digital Enterprise",
+        headLine: "Our Core Values",
+        title: "Not only define who we are today",
         description:
-          "We develop custom solutions for you no matter your industry or need",
-        link: "#",
-        image: banner1,
+          "But also guide us towards where we aspire to be in the future",
+
+        link: "/about/who-we-are",
+        image: whoWeAreImage,
       },
       {
-        headLine: "Your Next Business Advantage",
-        title: "Digital Transformation",
-        description: "Delivering Value through Cybernated Implementations",
-        link: "#",
-        image: banner2,
+        headLine: "Staff Augmentation",
+        title: "Offering world-class recruiting solutions",
+        description: "Connecting top talent with exceptional opportunities",
+
+        link: "/services/consulting",
+        image: staffAugmentationImage,
       },
       {
-        headLine: "Optimizing System Governance with Big Data",
-        title: "Data Engineering",
-        description: "Delivering Value through Cybernated Implementations",
-        link: "#",
-        image: banner3,
+        headLine: "IT Solutions",
+        title: "Best in class Software Products & Solutions",
+        description:
+          "Web, Mobile or App Development on various Platforms, Frameworks",
+
+        link: "/services/it",
+        image: itSolutionsImage,
       },
       {
-        headLine: "Optimizing System Governance with Big Data",
-        title: "Data Engineering",
-        description: "Delivering Value through Cybernated Implementations",
-        link: "#",
-        image: banner4,
+        headLine: "CCCC Engagement Model",
+        title: "We are Uniquely Exclusive and Inclusive",
+        description:
+          "Original, Robust, Flexible and Innovative Business Engagements",
+
+        link: "/about/who-we-are",
+        image: ccccImage,
+      },
+      {
+        headLine: "Training and Certifications",
+        title: "Vast network of trainers and industry professionals",
+
+        description:
+          "Comprehensive IT training and certifications courses for all technologies",
+
+        link: "/services/trainings",
+        image: trainingsImage,
+      },
+      {
+        headLine: "Digital Marketing",
+        title:
+          "With specialized and robust marketing strategies and social media campaigns",
+
+        description: "To reach your intended customer base in record time",
+
+        link: "/services/digital-marketing",
+        image: digitalMarketingImage,
+      },
+      {
+        headLine: "Research & Development",
+        title: "Innovation and green solutions are at the core of work culture",
+
+        description: "For building new technologies and frameworks",
+
+        link: "/about/research",
+        image: ccccImage,
       },
     ];
     return banners;
   }
   getBannersComponents() {
     return this.getBanners().map((banner, index) => (
-      <div className="carousel-item active">
-        <img src={banner.image} alt={banner.title} />
+      <div className={index == 0 ? "carousel-item active" : "carousel-item"}>
+        <img className="banner-image" src={banner.image} alt={banner.title} />
         <div className="carousel-caption">
           <p className="banner-headline from-top animation-delay-8">
             {banner.headLine}
           </p>
-          <p className="banner-title from-top animation-delay-6">
+          <p className="banner-title from-top animation-delay-8">
             {banner.title}
           </p>
-          <p className="banner-description from-top animation-delay-2">
-            {banner.description}
-          </p>
+
+          <p className="banner-description">{banner.description}</p>
           <Link to={banner.link} className="btn-full">
             Learn More
           </Link>
         </div>
       </div>
+    ));
+  }
+  getButtons() {
+    return this.getBanners().map((banner, index) => (
+      <button
+        type="button"
+        data-bs-target="#home-page-banners"
+        data-bs-slide-to={index}
+        className="active"
+        aria-current="true"
+        aria-label={banner.description}
+      ></button>
     ));
   }
 }
