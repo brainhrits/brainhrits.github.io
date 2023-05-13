@@ -8,7 +8,6 @@ import itSolutionsImage from "./images/3.jpg";
 import ccccImage from "./images/5.jpg";
 import trainingsImage from "./images/1.jpg";
 import digitalMarketingImage from "./images/14.jpg";
-import researchImage from "./images/1.jpg";
 
 class Banners extends React.Component {
   render() {
@@ -94,9 +93,10 @@ class Banners extends React.Component {
     ];
     return banners;
   }
+
   getBannersComponents() {
     return this.getBanners().map((banner, index) => (
-      <div className={index == 0 ? "carousel-item active" : "carousel-item"}>
+      <div className={index === 0 ? "carousel-item active" : "carousel-item"}>
         <img className="banner-image" src={banner.image} alt={banner.title} />
         <div className="carousel-caption">
           <p className="banner-headline from-top animation-delay-8">

@@ -26,7 +26,7 @@ class InfoSection extends React.Component {
               variants={AppAnimations.slideToRight}
               className="intro-section-img"
             >
-              <img src={this.props.image} alt="intro image" />
+              <img src={this.props.image} alt="introduction" />
             </motion.div>
           )}
         </motion.div>

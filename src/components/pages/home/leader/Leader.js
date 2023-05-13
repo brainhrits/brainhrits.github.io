@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import "./leader.css";
 import AppAnimations from "../../../../common/js/animations";
 
@@ -44,7 +45,7 @@ class Leader extends React.Component {
             <div>
               {industries.map((ind, index) => {
                 return (
-                  this.state.industryIndex == index && (
+                  this.state.industryIndex === index && (
                     <motion.div
                       className="title"
                       variants={AppAnimations.SentenceTyping}
@@ -74,9 +75,9 @@ class Leader extends React.Component {
               business is done in the world.
             </div>
             <div className="learnBtn">
-              <a href="#" className="btn-full">
+              <Link to="/about/who-we-are" className="btn-full">
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
         </div>

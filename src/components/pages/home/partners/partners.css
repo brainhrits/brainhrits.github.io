@@ -19,9 +19,10 @@
   gap: 5rem;
   margin: 5rem auto;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .partnerLogo img {
-  width: 15rem;
-  height: 4rem;
+  width: 10rem;
+  height: 8rem;
 }
