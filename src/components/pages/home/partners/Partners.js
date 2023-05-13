@@ -23,6 +23,8 @@ import Hexware from "./images/hexaware.png";
 import { motion } from "framer-motion";
 import AppAnimations from "../../../../common/js/animations";
 import SiliconValleyBank from "./images/SiliconValleyBank.png";
+import FRB from "./images/FRB.png";
+import CitizensBank from "./images/CitizensBank.jpg";
 export default class Partners extends React.Component {
   render() {
     return (
@@ -138,6 +140,14 @@ export default class Partners extends React.Component {
       {
         name: "SVB",
         image: SiliconValleyBank,
+      },
+      {
+        name: "CitizensBank",
+        image: CitizensBank,
+      },
+      {
+        name: "FirstRepublicBank",
+        image: FRB,
       },
     ];
   }
