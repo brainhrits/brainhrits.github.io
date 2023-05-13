@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6b8e8287.css",
-    "main.js": "/static/js/main.fa595a31.js",
+    "main.js": "/static/js/main.e9448703.js",
     "static/media/2.png": "/static/media/2.83453004f4b37504f6c7.png",
     "static/media/1.jpg": "/static/media/1.2ce92eca799399d826fb.jpg",
     "static/media/office-building.jpeg": "/static/media/office-building.6e0916ec1d240489c679.jpeg",
@@ -30,12 +30,13 @@
     "static/media/GS.png": "/static/media/GS.a1a695bb01902ce11791.png",
     "static/media/freddie-mac.jpg": "/static/media/freddie-mac.87b53cc0ec05844bed2b.jpg",
     "static/media/FannieMae.png": "/static/media/FannieMae.e734691906e8d3153cff.png",
+    "static/media/CitizensBank.jpg": "/static/media/CitizensBank.6fdd37aaf06d8d3071d1.jpg",
     "index.html": "/index.html",
     "main.6b8e8287.css.map": "/static/css/main.6b8e8287.css.map",
-    "main.fa595a31.js.map": "/static/js/main.fa595a31.js.map"
+    "main.e9448703.js.map": "/static/js/main.e9448703.js.map"
   },
   "entrypoints": [
     "static/css/main.6b8e8287.css",
-    "static/js/main.fa595a31.js"
+    "static/js/main.e9448703.js"
   ]
 }
