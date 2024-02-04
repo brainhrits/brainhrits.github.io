@@ -101,7 +101,7 @@ class App extends React.Component {
             path="/services/embedded-systems"
             element={<EmbeddedSystems />}
           />
-
+          {/* <Route path="/careers" element={<Careers />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

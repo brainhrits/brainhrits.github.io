@@ -67,7 +67,7 @@ class Header extends React.Component {
                 </li> */}
 
                 <li className="header dropdown">
-                  <a href="#">
+                <a href="#">
                   <span className="header-icon">
                     <i className="fa fa-info-circle" aria-hidden="true"></i>
                   </span>
@@ -162,7 +162,7 @@ class Header extends React.Component {
                   <span className="header-icon">
                     <i className="fa-solid fa-bell-concierge"></i>
                   </span>
-                  <a href="#servicesSection">
+                  <a href="/#servicesSection">
                   <span>Services</span>
                   </a>
                   
@@ -401,7 +401,7 @@ class Header extends React.Component {
                     </li>
                   </ul>
                 </li> */}
-                <li className="header dropdown">
+                {/* <li className="header dropdown">
                 <a href="#">
                   <span className="header-icon">
                     <i className="fa-solid fa-briefcase"></i>
@@ -471,9 +471,9 @@ class Header extends React.Component {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="header">
-                  <a href="#clients">
+                  <a href="/#clients">
                   <span className="header-icon">
                     <i className="fa-solid fa-users"></i>
                   </span>
