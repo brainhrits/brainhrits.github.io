@@ -8,12 +8,12 @@ class InfoSection extends React.Component {
       <section className="section">
         <motion.div
           className="intro-section"
-          variants={AppAnimations.none}
+          // variants={AppAnimations.none}
           initial="hidden"
           whileInView="visible"
         >
           <motion.div
-            variants={AppAnimations.slideToRight}
+            // variants={AppAnimations.slideToRight}
             className="intro-section-details"
           >
             <div className="section-name">{this.props.name}</div>
@@ -23,7 +23,7 @@ class InfoSection extends React.Component {
           </motion.div>
           {this.props.image && (
             <motion.div
-              variants={AppAnimations.slideToRight}
+              // variants={AppAnimations.slideToRight}
               className="intro-section-img"
             >
               <img src={this.props.image} alt="introduction" />

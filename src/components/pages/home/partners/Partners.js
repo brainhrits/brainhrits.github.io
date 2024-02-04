@@ -28,7 +28,7 @@ import CitizensBank from "./images/CitizensBank.jpg";
 export default class Partners extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section" id="clients">
         <motion.div
           variants={AppAnimations.none}
           initial="hidden"

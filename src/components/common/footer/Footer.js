@@ -4,9 +4,8 @@ import companyLogo from "../../../common/images/logo.png";
 import "./footer.css";
 export default class Footer extends React.Component {
   render() {
-    console.log("API URL: ", process.env);
     return (
-      <footer class="footer">
+      <footer class="footer" id="toggleFooter">
         <div class="footerContainer">
           <div class="footerSection footerCompany">
             <div class="footerCompany">
@@ -15,7 +14,7 @@ export default class Footer extends React.Component {
             <div>
               BrainHR IT Solutions is a team of highly skilled consultants and
               creative problem solvers who will help you reach your goals
-              instead of just sell you a solution.
+              instead of just selling you a solution.
             </div>
 
             <div class="footerLinkedIn">

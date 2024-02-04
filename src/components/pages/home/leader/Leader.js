@@ -84,14 +84,14 @@ class Leader extends React.Component {
         <motion.div
           className="happyTeam1"
           style={{ backgroundImage: `url(${happyTeam1})` }}
-          variants={AppAnimations.slideToLeft}
+          // variants={AppAnimations.slideToLeft}
           initial="hidden"
           whileInView="visible"
         ></motion.div>
         <motion.div
           className="happyTeam2"
           style={{ backgroundImage: `url(${happyTeam2})` }}
-          variants={AppAnimations.slideToRight}
+          // variants={AppAnimations.slideToRight}
           initial="hidden"
           whileInView="visible"
         ></motion.div>

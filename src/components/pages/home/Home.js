@@ -21,30 +21,30 @@ class Home extends React.Component {
         <div style={{ marginTop: "45rem" }}>
           <InfoSection
             name="BRAINHR IT SOLUTIONS (BITS)"
-            title="Delivering World Class Automated Solutions for all your Business needs"
+            title="Empowering your business with automated solutions"
             image={introImg}
           >
             <p>
-              BrainHR IT solutions Inc. (BITS) is a Leading Software Consultancy
-              firm catering to the IT Consulting needs and delivering End-End
-              Solutions to Software Development Projects for Various Prestigious
-              Companies and our Esteemed Clients in USA and India.
+              BrainHR IT Solutions Inc. (BITS) is a leading software consultancy
+              firm catering to the IT consulting needs and delivering end-to-end
+              solutions to software development projects for various prestigious
+              companies and our esteemed clients in the USA and India.
             </p>
             <p>
-              We Offer best-in-class Technology solutions as well as Digital
-              Marketing solutions with our In-house developed Automation Tools
-              for each Scenario measured and Driven through our Data Engineering
-              and Analytics.
+              We offer best-in-class technology solutions as well as digital
+              marketing solutions with our in-house developed automation tools
+              for each scenario measured and driven through our data engineering
+              and analytics.
             </p>
             <p>
-              BITS Services add Value, Quality, Speed & invent Cost effective
-              Strategies in our all Business Models.We are Robust, Adaptive,
-              Flexible, Innovative in implementing and executing our Day-Day
-              activities and Projects with our CCCC (Core Client-Customer
-              Centric) Engagement Model.
+              BITS services add value, quality, speed & invent cost-effective
+              strategies in our all business models. We are robust, adaptive,
+              flexible, innovative in implementing and executing our day-to-day
+              activities and projects with our CCCC (Core Client-Customer
+              Centric) engagement model.
             </p>
             <p>
-              <Link to="/brain/about" className="btn-full">
+              <Link to="/brain/about/who-we-are" className="btn-full">
                 Read More
               </Link>
             </p>
@@ -57,7 +57,7 @@ class Home extends React.Component {
             description="We operate on a client-first approach & have a long record of
             satisfied clients who rely on us for their business needs. We always
             go the extra mile to ensure our client's happiness and satisfaction."
-            animationVariant={AppAnimations.slideToRight}
+            // animationVariant={AppAnimations.slideToRight}
           ></Card>
           <Card
             icon="fa-regular fa-object-ungroup"
@@ -65,7 +65,7 @@ class Home extends React.Component {
             description="We offer innovative, flexible & customer-focused business solutions. 
             We work closely with our clients to understand their unique goals and deliver services 
             that drive maximum value."
-            animationVariant={AppAnimations.slideToTop}
+            // animationVariant={AppAnimations.slideToTop}
           ></Card>
           <Card
             icon="fa-regular fa-snowflake"
@@ -73,7 +73,7 @@ class Home extends React.Component {
             description="Our IT consulting & staffing solutions are designed to perfection after 
             deep analysis & collaboration. We offer customized solutions to cater to our client's 
             business goals and diverse interests."
-            animationVariant={AppAnimations.slideToLeft}
+            // animationVariant={AppAnimations.slideToLeft}
           ></Card>
         </section>
         <Leader />

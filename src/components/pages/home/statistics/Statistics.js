@@ -21,7 +21,7 @@ export default class Statistics extends React.Component {
                 maxCount="500"
                 duration={this.duration}
                 suffix="+"
-                description="Project Delivered"
+                description="Projects delivered"
               ></Stat>
 
               <Stat
@@ -29,7 +29,7 @@ export default class Statistics extends React.Component {
                 maxCount="99"
                 duration={this.duration}
                 suffix="%"
-                description="Returning Customers"
+                description="Customer Retention"
               ></Stat>
 
               <Stat
@@ -37,14 +37,14 @@ export default class Statistics extends React.Component {
                 maxCount="1000"
                 duration={this.duration}
                 suffix="+"
-                description="Resources Trained & Staffed"
+                description="Strategically staffed resources"
               ></Stat>
               <Stat
                 icon="fa-solid fa-user-graduate"
                 maxCount="100"
                 duration={this.duration}
                 suffix="%"
-                description="Certified Professional"
+                description="Certified Practitioners"
               ></Stat>
             </div>
           </div>

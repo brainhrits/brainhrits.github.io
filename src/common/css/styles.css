@@ -18,6 +18,7 @@ body {
 .company-logo {
   height: 5.5rem;
   width: 14rem;
+  background-color: white;
 }
 
 .company-logo-container {

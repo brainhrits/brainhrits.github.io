@@ -8,33 +8,33 @@ import AppAnimations from "../../../../common/js/animations";
 export default class ServiceCards extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section" id="servicesSection">
         <motion.div
-          variants={AppAnimations.none}
+          // variants={AppAnimations.none}
           initial="hidden"
           whileInView="visible"
           className="services"
         >
           <motion.div
-            variants={AppAnimations.slideToTop}
+            // variants={AppAnimations.slideToTop}
             className="servicesHeading"
           >
             OUR SERVICES
           </motion.div>
           <motion.div
-            variants={AppAnimations.slideToTop}
+            // variants={AppAnimations.slideToTop}
             className="servicesSubHeading"
           >
             What We Provide
           </motion.div>
           <motion.div
-            variants={AppAnimations.slideToTop}
+            // variants={AppAnimations.slideToTop}
             className="servicesHeadingSeperator"
           >
             &nbsp;
           </motion.div>
           <motion.div
-            variants={AppAnimations.slideToTop}
+            // variants={AppAnimations.slideToTop}
             className="servicesHeadingSubText"
           >
             BrainHR IT Solutions is a provider of IT management solutions for
@@ -43,7 +43,7 @@ export default class ServiceCards extends React.Component {
             performance, and achieve more with their IT infrastructure.
           </motion.div>
           <motion.div
-            variants={AppAnimations.slideToTop}
+            // variants={AppAnimations.slideToTop}
             className="serviceCards"
           >
             <ServiceCard
