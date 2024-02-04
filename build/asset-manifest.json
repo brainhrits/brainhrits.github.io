@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.744bab37.css",
+    "main.css": "/static/css/main.3675d5b1.css",
     "main.js": "/static/js/main.bad3310d.js",
     "static/media/2.png": "/static/media/2.83453004f4b37504f6c7.png",
     "static/media/1.jpg": "/static/media/1.2ce92eca799399d826fb.jpg",
@@ -32,11 +32,11 @@
     "static/media/FannieMae.png": "/static/media/FannieMae.e734691906e8d3153cff.png",
     "static/media/CitizensBank.jpg": "/static/media/CitizensBank.6fdd37aaf06d8d3071d1.jpg",
     "index.html": "/index.html",
-    "main.744bab37.css.map": "/static/css/main.744bab37.css.map",
+    "main.3675d5b1.css.map": "/static/css/main.3675d5b1.css.map",
     "main.bad3310d.js.map": "/static/js/main.bad3310d.js.map"
   },
   "entrypoints": [
-    "static/css/main.744bab37.css",
+    "static/css/main.3675d5b1.css",
     "static/js/main.bad3310d.js"
   ]
 }
